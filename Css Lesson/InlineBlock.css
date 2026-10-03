@@ -1,0 +1,7 @@
+.box1{
+    background-color: dodgerblue;
+    width: 300px;
+    height: 300px;
+    margin: 10px 0;
+    display: inline-block;
+}
