@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Background size  */
+/* .box{
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdRyPxXHQEk_5vKdcdmN6TeCtJGIFn6WnkdKkug0LMnw&s=10");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 20px solid grey;
+
+} */
+/* Background Position */
+.box{
+    color: white;
+    height: 700px;
+    background-image: url("../images/um.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    /* 
+
+    background-position-x: left;
+    background-position-y: bottom;
+
+    background-position-x: right;
+    background-position-y: bottom;
+    
+    
+    */
+}
