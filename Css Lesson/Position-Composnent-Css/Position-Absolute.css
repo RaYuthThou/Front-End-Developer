@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+
+p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    width: 300px;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.p1{
+    background-color: dodgerblue;
+    position: relative;
+    bottom: 20px;
+}
+/*  take other for they position */
+.p2{
+    background-color: gold;
+    position: absolute;
+    right: 10px;
+
+}
