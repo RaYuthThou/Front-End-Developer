@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    width: 200px;
+    padding: 2rem;
+    color: white;
+    background-color: dodgerblue;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    right: 30px;
+
+}

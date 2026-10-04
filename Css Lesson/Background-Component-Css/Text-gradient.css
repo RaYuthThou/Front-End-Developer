@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+
+/* h1{
+    font-family: sans-serif;
+    font-size: 3rem;
+    margin-top: 200px;
+    text-align: center;
+    background-image: linear-gradient(to right , red , dodgerblue);
+    color: transparent;
+    background-clip: text;
+} */
+
+.youtube-logo{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    margin-top: 200px;
+}
+span{
+    background-image: linear-gradient(to right , red , white);
+    color: transparent;
+    background-clip: text;
+    
+}
