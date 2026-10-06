@@ -1,0 +1,28 @@
+.container{
+  width: 500px;
+  height: 500px;
+  background-color:aqua;
+  border: 10px solid orange;
+  position: relative;
+}
+.container > div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.box-one{
+    background-color: brown;
+    z-index: 1;
+}
+.box-two{
+    background-color: chartreuse;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+.box-three{
+    background-color: darksalmon;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}

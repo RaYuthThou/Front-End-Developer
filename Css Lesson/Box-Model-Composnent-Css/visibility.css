@@ -1,6 +1,7 @@
 .box{
     background-color: gold;
     height: 300px;
-    /* visibility: hidden; */
-    display: none;
+    width: 300px;
+    overflow:visible;
+    
 }
