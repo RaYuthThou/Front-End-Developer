@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+
+/* div :first-chi{
+    color: gold;
+} */
+
+.wrapper :first-of-type{
+    color: dodgerblue;
+}
