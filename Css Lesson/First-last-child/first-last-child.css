@@ -2,10 +2,18 @@
     margin: 0;
 }
 
-/* div :first-chi{
+p{
+    font-size: 3rem;
+}
+
+/* div :first-child{
     color: gold;
 } */
+ /*  in this can use both first-last of type or first-last child */
+/* .wrapper p:last-of-type{
+    color: red;
+} */
 
-.wrapper :first-of-type{
-    color: dodgerblue;
+p:first-child{
+    color: red;
 }
