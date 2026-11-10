@@ -1,0 +1,21 @@
+/* input::placeholder{
+    color: red;
+}
+li::marker{
+    color: gold;
+} */
+
+ul{
+    font-size: 3rem;
+    margin-left: 40%;
+}
+
+.list-name :first-of-type::marker{
+    color: red;
+}
+.list-name :last-of-type::marker{
+    color: greenyellow;
+}
+.list-name li:nth-child(even)::marker {
+    color: #574AE2;
+}

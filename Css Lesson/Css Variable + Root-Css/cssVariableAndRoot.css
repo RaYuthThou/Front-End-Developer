@@ -1,0 +1,17 @@
+:root{
+    --primary-color: #BAA898;
+    --heading-text-size: 4rem;
+}
+
+h1{
+    font-size: var(--heading-text-size);
+    color: var(--primary-color);
+}
+h2{
+    font-size: var(--heading-text-size);
+    color: var(--primary-color);
+}
+p::selection{
+    background-color: yellow;
+    color: red;
+}

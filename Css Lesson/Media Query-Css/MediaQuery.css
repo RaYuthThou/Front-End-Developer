@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --primary-color: red;
+   --heading-text-size: 3rem;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: var(--heading-text-size); 
+}
+h2{
+    color: var(--primary-color);
+    font-size: var(--heading-text-size); 
+}
+
+@media screen and (min-width: 800px){
+    :root{
+        --primary-color: dodgerblue;
+        --heading-text-size: 4rem;
+    }
+    
+}
+
