@@ -13,6 +13,18 @@
     background-color: gray;
 }  */
 /*  can use even and odd also */
-div span:nth-of-type(2){
+/* div span:nth-of-type(2){
    color: red;
+} */
+
+li{
+    font-size: 3rem;
+    text-decoration: none;
+    padding: 10px 0;
+    background-color: dodgerblue;
+    margin: 10px ;
+}
+
+.list :nth-child(odd){
+    background-color: gray;
 }
