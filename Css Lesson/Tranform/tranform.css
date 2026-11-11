@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
-.box{
-    width: 500px;
-    height: 500px;
-    background-color: yellow;
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: black;
     border: 10px solid blue;
-    transform: translate(100px,200px);
+    position: relative;
+}
+
+.box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
 }

@@ -1,0 +1,20 @@
+h1{
+    font-family: sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 300px;
+    text-shadow: 10px 10px 30px gray;
+    animation: moving 2s ease-in-out 1s infinite alternate;
+    
+}
+@keyframes moving{
+    50%{
+        color: dodgerblue;
+        text-shadow: 10px 10px 30px dodgerblue;
+    }
+    100%{
+        color: #8C2155;
+        text-shadow: 10px 10px 30px #8C2155;
+    }
+    
+}

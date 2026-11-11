@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-one{
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    animation: moving 5s ease-in-out 1s infinite alternate;
+    
+}
+
+.box-one:hover{
+    animation-play-state: paused;
+}
+@keyframes moving{
+    0%{
+       transform: translateX(50px);
+       border-radius: 50%;
+    }
+    50%{
+        border-radius: 50%;
+        transform: translateX(100px);
+        background-color: gold;
+    }
+    100%{
+        transform: translate(100px , 100px);
+        background-color: gold;
+    }
+}
