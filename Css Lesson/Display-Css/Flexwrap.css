@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: lightblue;
+    border: 10px solid blue;
+    color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-content: space-evenly;
+}
+.box{
+    background-color: darkblue;
+    width: 100px;
+    height: 100px;
+}
+
+.box:nth-child(even){
+    background-color: darkorange;
+}
