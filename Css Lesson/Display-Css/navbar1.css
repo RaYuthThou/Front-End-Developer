@@ -1,0 +1,72 @@
+:root{
+    --primary-color: white;
+}
+body{
+    font-family: sans-serif;
+}
+.toggle{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-logo{
+    transform: translateX(60px);
+    font-size: 1.2rem;
+}
+.nav-list{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   gap: 0px 80px;
+   font-size: 1.1rem;
+}
+.button-link > button{
+    border: none;
+    background-color: rgb(227, 227, 102);
+    padding: 7px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav-link > a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-bar{
+    background-color: black;
+    color: var(--primary-color);
+    padding: 30px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.about-us a:hover{
+    border-bottom: 2.2px solid gray;
+}
+.portfolio a:hover{
+    border-bottom: 2.2px solid gray;
+}
+.services a:hover{
+    border-bottom: 2.2px solid gray;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-bar{
+        flex-wrap: wrap;
+    }
+    .nav-list{
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 30px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    .toggle{
+        display: flex;
+        font-size: 1.5rem;
+    }
+    
+}
