@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-size: 2rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-one{
+    background-color: yellow;
+}
+.box-two{
+    background-color: dodgerblue;
+}
+.box-three{
+    background-color: darkturquoise;
+}
+.box-four{
+    background-color: greenyellow;
+}
+.box-five{
+    background-color: purple
+}
+.box-six{
+    background-color: brown;
+}
+.container{
+    height: 5   0vh;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+     "one one two"
+     "three four two"
+     "five four six"
+    ;
+    gap: 10px 10px;
+    
+}
+.box-one{
+    grid-area: one;
+}
+.box-two{
+    grid-area: two;
+}
+.box-three{
+    grid-area: three;
+}
+.box-four{
+    grid-area: four;
+}
+.box-five{
+    grid-area: five;
+}
+.box-six{
+    grid-area: six;
+}
+

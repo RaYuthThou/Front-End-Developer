@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+
+}
+.box{
+    /* width: 250px; */
+    /* height: 250px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+
+}
+.box:nth-child(even){
+    background-color: gold;
+}
+
+.container{
+    height: 50vh;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: repeat(2 ,200px);
+    grid-template-rows: repeat(3 , 100px);
+    /* Height == grid-template-rows and 
+       width == grid-template-columns 
+    */
+    gap: 10px 20px;
+}
+.box-one{
+    grid-row: 1/3;
+}
