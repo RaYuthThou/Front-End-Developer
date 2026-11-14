@@ -1,0 +1,92 @@
+
+:root{
+    --primary-color: rgb(123, 123, 123);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url(/images/greenfarm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+.product-card{
+    background-color: rgb(227, 225, 225 , 0.8);
+    width: 700px;
+    display: flex;
+    gap: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 80px rgb(238, 238, 238);
+    border: 2px solid rgb(243, 241, 241);
+    /* backdrop-filter: blur(20px); */
+
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.product-heading{
+    text-align: center;
+}
+.heading{
+    font-size: 3rem;
+    color: black;
+}
+.price{
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: var(--primary-color);
+}
+.btn{
+    border: 0;
+    padding: 15px 5px;
+    border-radius: 100px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    animation: scale 1s ease-in 0.02s infinite alternate-reverse;
+}
+.btn:hover{
+    color: gray;
+    background-color: transparent;
+    outline: 2px solid gray;
+    animation-play-state: paused;
+}
+.product-img{
+    width: 300px;
+    animation: rotation 4s ease-in 0.02s infinite alternate-reverse;
+}
+.product-img:hover{
+    animation-play-state: paused;
+}
+.product-img > img{
+    width: 100%;
+}
+@keyframes scale{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+@keyframes rotation{
+    from{
+      transform: rotate(0) scale(1);
+      
+    }
+    to{
+       transform: rotate(-80deg) scale(1.1);
+    }
+}
+
