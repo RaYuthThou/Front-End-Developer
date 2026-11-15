@@ -31,7 +31,7 @@ body{
     background-color: brown;
 }
 .container{
-    height: 5   0vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 100px 100px 100px;
@@ -41,6 +41,8 @@ body{
      "five four six"
     ;
     gap: 10px 10px;
+    place-content: center center;
+    
     
 }
 .box-one{

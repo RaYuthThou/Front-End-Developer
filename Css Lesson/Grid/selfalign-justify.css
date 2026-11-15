@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-size: 2rem;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-one{
+    background-color: yellow;
+}
+.box-two{
+    background-color: dodgerblue;
+    /* justify-self: end;
+    align-self: end; */
+    /* place-self: end; */
+}
+.box-three{
+    background-color: darkturquoise;
+}
+.box-four{
+    background-color: greenyellow;
+}
+.box-five{
+    background-color: purple
+}
+.box-six{
+    background-color: brown;
+}
+.container{
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , 200px);  
+}
+
+
+
