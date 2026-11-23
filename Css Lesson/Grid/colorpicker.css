@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+.heading{
+  
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+h1{
+  font-size: 3rem;
+}
+
+
 .color-list{
     display:flex;
     background-color: yellow;
@@ -12,10 +26,10 @@
 }
 .color-container{
     display: grid;
-
     gap: 20px;
-    
+    margin-top: 50px;
 }
+
 @media  screen and (min-width:768px) {
     .color-container{
         grid-template-columns: repeat(2 , 1fr);
@@ -41,6 +55,7 @@
     flex-grow: 1;
     transition: all .2s ease;
     cursor: pointer;
+
 }
 .color-item:hover{
     flex-grow: 2;
